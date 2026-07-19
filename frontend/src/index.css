@@ -1,0 +1,79 @@
+/* ------------------------------
+   Global Styles
+------------------------------ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+
+    width:100%;
+    height:100%;
+
+}
+
+body{
+
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+
+    background:#202123;
+
+    color:#ECECF1;
+
+    overflow:hidden;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+
+}
+
+button{
+
+    font-family:inherit;
+
+}
+
+input,
+textarea{
+
+    font-family:inherit;
+
+}
+
+a{
+
+    color:inherit;
+    text-decoration:none;
+
+}
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#202123;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#444654;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#5b5d70;
+
+}
